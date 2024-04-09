@@ -17,7 +17,7 @@ session_start();
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <h2>Formulário</h2>
-                <form method="POST" action="calculate.php">
+                <form method="POST" action="calculo.php">
                     <div class="form-group">
                         <label for="name">Nome:</label>
                         <input type="text" class="form-control" id="name" name="name" required>
