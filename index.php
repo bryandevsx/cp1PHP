@@ -81,13 +81,13 @@ session_start();
                             <p class="card-text">Data de Nascimento:
                                 <?php echo ($_SESSION['dataNasc']) ?>
                             </p>
-                            <p class="card-text">Total com Juros Compostos: R$
+                            <p class="card-text">Cenário 1: R$
                                 <?php echo number_format($_SESSION['total1'], 2, ',', '.'); ?>
                             </p>
-                            <p class="card-text">Total com Pagamento Inicial: R$
+                            <p class="card-text">Cenário 2: R$
                                 <?php echo number_format($_SESSION['total2'], 2, ',', '.'); ?>
                             </p>
-                            <p class="card-text">Total com Juros Simples: R$
+                            <p class="card-text">Cenário 3: R$
                                 <?php echo number_format($_SESSION['total3'], 2, ',', '.'); ?>
                             </p>
                         </div>
